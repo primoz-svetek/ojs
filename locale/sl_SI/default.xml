@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/sl_SI/default.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+<!-- Section default -->
+<message key="section.default.title">Prispevki</message>
+<message key="section.default.abbrev">PRS</message>
+<message key="section.default.policy">Uredniška politika</message>
+
+<!--
+ *
+ * DEFAULT - Default settings for setup items.
+ *
+-->
+<message key="default.journalSettings.checklist.notPreviouslyPublished">Prispevek še ni bil nikjer objavljen, niti ni v procesu objavljanja v kakšni drugi publikaciji (oziroma je razlaga podana v polju Komentarji uredniku).</message>
+<message key="default.journalSettings.checklist.fileFormat">Datoteka oddanega prispevka je v formatu OpenOffice, Microsoft Word, RTF ali WordPerfect dokumenta.</message>
+<message key="default.journalSettings.checklist.addressesLinked">Kjer je možno, so objavljene URL povezave do literature.</message>
+<message key="default.journalSettings.checklist.submissionAppearance">Besedilo ima enojni razmak; uporabljena pisava je velikosti 12 točk; za poudarjene besede uporabite stil poševno, podčrtano le za URL povezave; in vse ilustracije, slike in tabele so na pravih mestih v besedilu, namesto na kupu na koncu besedila.</message>
+<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Besedilo ustreza stilskim in bibliotehničnim zahtevam navedenimi v <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines" target="_new">Navodila za avtorje</a>, ki se nahajajo v rubriki "O publikaciji".]]></message>
+<message key="default.journalSettings.checklist.anonymous"><![CDATA[Če oddajate prispevek v recenzijo, morate slediti navodilom v <a href="javascript:openHelp('{$indexUrl}/{$journalPath}/help/view/editorial/topic/000044')">Kako zagotoviti anonimnost recenzije</a>.]]></message>
+<message key="default.journalSettings.privacyStatement">Imena in e-poštni naslovi vpisani v tem spletišču se bodo striktno uporabljala le za navedene namene te publikacije in ne bodo predane nobeni tretji osebi.</message>
+<message key="default.journalSettings.openAccessPolicy">Publikacija je takoj prosto dostopna vsem v prepričanju, da prosta dostopnost do rezultatov raziskav vzpodbuja večjo izmenjavo znanja.</message>
+<message key="default.journalSettings.authorSelfArchivePolicy">Ta publikacija dovoljuje in vzpodbuja avtorje, da prispevke, objavljene v tej publikaciji, objavljajo na osebnih spletni straneh ali bazah podatkov institucije, pred ali po objavi s tem, da navedejo bibliografske podatke, da je bil prispevek objavljen v tej publikaciji.</message>
+<message key="default.journalSettings.copyeditInstructions"><![CDATA[Lektoriranje je namenjeno izboljšavi poteka, jasnosti, slovnice, izbiri besed in obliki prispevka. Predstavlja zadnjo možnost, da avtor naredi večje spremembe besedila, ker so naslednji koraki omejeni le na tiskarske škrate in oblikovne porpavke.
+
+ Datoteka za lektoriranje je v Word ali .rtf formatu in se lahko enostavno ureja z urejevalnikom besedil. Navodila spodaj predlagajo dva pristopa k lektoriranju. Prvi temelji na uporabi funkcije "Sledenje spremembam" urejevalnika besedil Microsoft Word in zahteva, da imajo lektor, urednik in avtor dostop do tega programa. Drugi pristop je neodvisen od urejevalnika besedil in je bil sposojen, z dovoljenjen, iz Harvard Eductional Review-ja. Glavni urednik lahko spremeni ta navodila in jih lahko nadgradi za potrebe te publikacije.
+
+<h4>Sistema za lektoriranje </h4>
+
+<strong>1. Funkcionalnost "Sledenje spremembam" Microsoft Word-a</strong>
+
+V meniju Orodja vklop funkcije Sledenje spremembam omogoča lektorju, da dodaja besedilo (ki se obarva) ali briše besedilo (zbrisano besedilo je prečrtano in obarvano). Lektor lahko pošlje vprašanja tako avtorju (Vprašanja za avtorja) kot uredniku (Vprašanja za urednika) tako, da vprašanja zapiše v oglate oklepaje. Lektorirana verzija je potem pošlje uredniku skupaj z obvestilom. Urednik pregleda besedilo in o tem obvesti avtorja.
+
+Urednik in avtor obdržita spremembe v besedilu, ki se jima zdijo smiselne. Če so potrebne še dodatne spremembe, lahko urednik in avtor spremenita začetne vnose ali brisanja oziroma, vstavita ali zbrišeta besedilo na poljubnem mestu. Avtor in urednik morata odgovoriti na vsa njima zastavljena vprašanja in odgovore vpisati v oglate oklepaje.
+
+Ko besedilo pregledata urednik in avtor, lektor naredi še zadnji pregled in potrdi spremembe v besedilu in pripravi besedilo za fazo grafičnega oblikovanja.
+
+
+<strong>2. Harvard Educational Review </strong>
+
+<strong>Instructions for Making Electronic Revisions to the Manuscript</strong>
+
+Prosimo sledite spodnjemu protokolu za elektronsko spreminjanje rokopisa:
+
+<strong>Odgovarjanje na svetovane spremembe.</strong>
+&nbsp; Za vsako spremembo, ki jo sprejmente, izključite poudarjeno besedilo.
+&nbsp; Za vsako spremembo, ki jo zavrnete, ponovno vpišite prvotno besedilo in ga <strong>poudarite</strong>.
+
+<strong>Dodajanje in brisanje besedila.</strong>
+&nbsp; Dodano besedilo označite <strong>poudarjeno</strong> pisavo.
+&nbsp; Izbrisano besedilo označite z: <strong>[zbrisano besedilo]</strong>.
+&nbsp; Če zbrišete enega ali več stavkov, to označite z obvestilom, npr.  <strong>[zbrisana 2 stavka]</strong>.
+
+<strong>Odgovarjanej na vprašanja avtorju.</strong>
+&nbsp; Obdržite vsa vprašanja avtorju nedotaknjena in s poudarjeno pisavo.
+&nbsp; Na vprašanej odgovorite s komentarjem za vprašanjem. Komentar naj bo ločen z uporabo:
+<strong>[Komentar:]</strong>
+&nbsp; npr. <strong>[Komentar: Razširite diskusijo o metodologiji, kot ste predlagali.]</strong>.
+
+<strong>Komentiranje besedila.</strong>
+&nbsp; Komentarje uporabite za razlago organizacijskih popravkov ali večjih sprememb
+&nbsp; npr. <strong>[Komentar: Gornji odstavek je prestavljen s strani 5 na stran 7].</strong>
+&nbsp; Opozorilo: Ko se sklicujete na številke strani, uporabite številke strani, ki so na natisneni kopiji rokopisa, ki vam je bil poslan. To je pomembno, ker se številke strani lahko spreminjajo med elektronskim spreminjanjem dokumenta.
+
+<h4>Potek elektronskih sprememb</h4>
+
+<ol>
+<li><strong>Originalen rokopis</strong> Lektor publikacije najprej uredi besedilo, da izbolša potek besedila, jasnost, slovnico, besedišče in formatiranje ter po potrebi zastavi avtorju vprašanja. Ko je prvotno lektoriranje končano, lektor naloži popravljeno besedilo preko spletne strani publikacije in obvesti avtroja, da je lektorirano besedilo na voljo za pregled.</li>
+<li><strong>Avtorjevo lektoriranje.</strong> Predno avtor naredi večje spremembe v strukturi in organicaciji lektoriranega besedila, se mora posvetovati z lektorjem, ki je zadolžen za tisti del besedila. Avtor mora sprejeti/zavrniti vsako spremembo, ki je bila narejena med prvotnim lektoriranjem in odgovoriti na vsa vprašanja za avtorja. Ko konča s spremembami, mora avtor preimenovati datoteko ic AvtorImeVA.doc v AvtorImeVAP. (npr. iz MatejVA.doc v MatejVAP.doc) in po navodilih naloži popravljen dokument preko spletne strani publikacije.</li>
+<li><strong>Končno lektoriranje.</strong> Lektor publikacije bo preveril spremembe, ki jih je naredil avtor, in pregledal avtorjeve odgovore in ustvaril končni rokopis. Ko konča, lektor naloži končni dokument preko spletne strani publikacije in o tem obvesti grafičnega urednika, ki dokonča oblikovanje prispevka.</li>
+</ol>]]></message>
+
+<message key="default.journalSettings.refLinkInstructions"><![CDATA[<h4>Dodajanje povezav na literaturo v procesu preloma</h4>
+<p>Ko preoblikujete prispevek v HTML ali PDF, preverite, da vse hiperpovezave v prispevku delujejo.</p>
+<h4>A. Ko avtor prispeva povezavo z literaturo</h4>
+<ol>
+<li>Ko je prispevek še v formatu za urejanej besedil (npr. Word), dodajte frazo POGLEJ POVEZAVO na konec literature, ki ima URL.</li>
+<li>To frazo spremenite v hiperpovezavo, tako da frazo izberete in uporabite Word-ovo orodje Vstavi Hiperlink, ter URL, ki je pripravljen v koraku 2.</li>
+</ol>
+<h4>B. Omogočite bralcem uporabo Google Scholar-ja za iskanje literature</h4>
+<ol>
+	<li>Ko je prispevek še v formatu za urejanej besedil (npr. Word), skopirajte naslov citiranega prispevka v seznam literature (če je naslov preveč generičen, potem skopirajte avtorja in naslov).</li>
+	<li>Vstavite naslov literature tako, da se začne in konča s %22, med besede v naslovu pa vstavite + : http://scholar.google.com/scholar?q=%22TUKAJ+VSTAVITE+NASLOV%22&hl=en&lr=&btnG=Search.</li>
+
+<li>Dodajte frazo GS SEARCH na konec vsakega citiranja v listi literature.</li>
+<li>To frazo spremenite v hiperpovezavo, tako da frazo izberete in uporabite Word-ovo orodje Vstavi Hiperlink, ter URL, ki je pripravljen v koraku 2.</li>
+</ol>
+<h4>C. Omogočite bralcem uporabo DOI-ja za iskanje literature</h4>
+<ol>
+<li>Ko je prispevek še v formatu za urejanej besedil (npr. Word), skopirajte citirano literaturo v CrossRef Text Query http://www.crossref.org/freeTextQuery/.</li>
+<li>Prilepite vsak DOI, ki ga dobite s poizvedbo v naslednji URL (med = in &): http://www.cmaj.ca/cgi/external_ref?access_num=PRILEPI DOI#TUKAJ&link_type=DOI.</li>
+<li>Dodajte frazo CrossRef na koncu vsakega citata v listi citatov prispevka.</li>
+<li>To frazo spremenite v hiperpovezavo, tako da frazo izberete in uporabite Word-ovo orodje Vstavi Hiperlink, ter URL, ki je pripravljen v koraku 2.</li>
+</ol>]]></message>
+
+<message key="default.journalSettings.proofingInstructions"><![CDATA[<p>Namen korekturnega postopka je, da ulovi kakršnekoli napake v prelomu, slovnične, pomenske in oblikovne. Večje spremembe ne morejo biti več narejene, razen, če se posebej dogovorijo z urednikom. V meniju Postavitev, kliknite na Poglej korekturo, da boste videli HTML, PDF in druge formate datotek, ki so uporabljeni pri izdaji.</p>
+<h4>Slovnične in pomenske napake </h4>
+
+<p>Skopirajte problematično besedo (ali več besed) in jih prilepite v polje Korekturni popravki z navodili ("SPREMENI...V...") uredniku, kot je vidno spodaj:</p>
+
+<pre>1. SPREMENI...
+potem ostalo
+V...
+potem ostalo</pre>
+<br />
+<pre>2. SPREMENI...
+Malinowsky
+V...
+Malinowski</pre>
+<br />
+
+<h4>Oblikovne napake</h4>
+
+<p>Opišite lokacijo in vrsto problema v polje Korekturni popravki, z naslovom "OBLIKA", kot je vidno spodaj:</p>
+<br />
+<pre>3. OBLIKA
+Številke v tabeli 3 niso poravnane v tretjem stolpcu.</pre>
+<br />
+<pre>4. OBLIKA
+Odstavek, ki se začne z "Zadnja tema...." ni zamaknjen.</pre>]]></message>
+
+<message key="default.journalSettings.emailSignature">________________________________________________________________________
+{$journalName}
+{$indexUrl}/{$journalPath}</message>
+<message key="default.journalSettings.forReaders"><![CDATA[Bralce vzpodbujamo, da se prijavijo na obvestila o izdajah publikacije. Uporabite povezavo <a href="{$indexUrl}/{$journalPath}/user/register">Registracija</a> na vrhu domače strani publikacije. Po registraciji boste po e-pošti prejemali kazalo vsebine vsake nove izdaje publikacije. Spisek tako registriranih bralcev pomeni za publikacijo tudi določeno podporo s strani bralcev. Preverite <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">Izjavo o varstvu podatkov</a> publikacije, ki zagotavlja, da se imena in e-poštni naslovi bralcev ne bodo zlorabili.]]></message>
+<message key="default.journalSettings.forAuthors"><![CDATA[Vas zanima objavljanje v tej publikaciji? Predlagamo, da pogledate spletno stran <a href="{$indexUrl}/{$journalPath}/about">O publikaciji</a> za uredniško politiko publikacije in <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Navodila avtorjem</a>. Avtorji se morajo pred objavljanjem <a href="{$indexUrl}/{$journalPath}/user/register">registrirati</a> pri publikaciji, če pa so že registrirani, potem se enostavno <a href="{$indexUrl}/index/login">prijavijo</a> in začnejo s procesom oddaje prispevka, ki vsebuje 5 korakov.]]></message>	
+<message key="default.journalSettings.forLibrarians"><![CDATA[Vzpodbujamo, da znanstvene knjižnice uvrstijo to publikacijo v svojo evidenco elektronskih publikacij. Enako velja poudariti, da je ta sistem za elektronsko izdajanje odprtokodni sistem, namenjen knjižnicam za gostovanje in izdajanje publikacij svoje institucije (več: <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
+<message key="default.journalSettings.lockssLicense"><![CDATA[Ta publiakcija uporablja sistem LOCKSS za kreiranja distribuiranega sistema za arhiviranje med sodelujočimi knjižnicami in dovoljuje tem knjižnicam, da trajno arhivirajo publikacijo za namene ohranjanja in restavriranja. <a href="http://lockss.org/">Več...</a>]]></message>
+
+<!-- Default settings for payment items. -->
+<message key="default.journalSettings.submissionFee">Oddaja prispevka</message>
+<message key="default.journalSettings.submissionFeeDescription">Avtorji morajo v procesu oddaje prispevka prispevati določeno pristojbino za kritje recenzijskih stroškov.</message>
+<message key="default.journalSettings.fastTrackFee">Postopek hitre recenzije</message>
+<message key="default.journalSettings.fastTrackFeeDescription">S plačilom te pristojbine uredništvo jamči, da bo celoten postopek recenzije, uredniških odločitev in obvestilo avtorju o rokopisu končan v štirih tednih.</message>
+<message key="default.journalSettings.publicationFee">Objava prispevka</message>
+<message key="default.journalSettings.publicationFeeDescription">Če bo vaš prispevek sprejet za izdajo, boste zaprošeni za plačilo pristojbine objave prispevka.</message>
+<message key="default.journalSettings.waiverPolicy">Če nimate virov za plačilo teh pristojbin, imate možnost za odobritev opustitve plačila. Ne želimo, da bi te pristojbine preprečile objavo vrednih prispevkov.</message>
+<message key="default.journalSettings.purchaseArticleFee">Kupi prispevek</message>
+<message key="default.journalSettings.purchaseArticleFeeDescription">Plačilo te pristojbine vam bo omogočilo vpogled v prispevke, prenos in tiskanje prispevka.</message>
+<message key="default.journalSettings.purchaseIssueFee">Kupi številko</message>
+<message key="default.journalSettings.purchaseIssueFeeDescription">Plačilo te pristojbine vam bo omogočilo vpogled v to številko publikacije, prenos in tiskanje te številke publikacije.</message>
+<message key="default.journalSettings.membershipFee">Članarina</message>
+<message key="default.journalSettings.membershipFeeDescription">S plačilo tega zneska boste postali član te organizacije za eno leto in boste imeli prost dostop do publikacije.</message>
+<message key="default.journalSettings.donationFee">Donacije za publiakcijo</message>
+<message key="default.journalSettings.donationFeeDescription">Donacije publikaciji vseh vrednosti sprejmemo s hvaležnostjo in zagotavljajo sredstva za urednike, da lahko nadaljujejo z zagotavljanjem visoke kvalitete publikacije za bralce.</message>
+</locale>

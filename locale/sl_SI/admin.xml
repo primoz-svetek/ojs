@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/sl_SI/admin.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+<message key="admin.hostedJournals">Publikacije na tem spletišču</message>
+<message key="admin.settings.journalRedirect">Preusmeritev publikacije</message>
+<message key="admin.settings.options">Nastavitve</message>
+<message key="admin.settings.useAlphalist">Za spletišče z več publikacijami prikaži na domači strani abecedni seznam publikacij za hitri priklic posamezne publikacije.</message>
+<message key="admin.settings.usePaging">Za spletišče z več publikacijami seznam vseh publikacij objavi na večih straneh namesto eni sami.</message>
+<message key="admin.settings.journalRedirectInstructions">Vse zahteve in obiski domače strani bodo preusmerjene na to publikacijo. To je uporabno, če na spletišču gostuje le ena publikacija.</message>
+<message key="admin.settings.noJournalRedirect">Ne preusmeri</message>
+    <message key="admin.settings.journalsList">Elementi publikacije</message>
+    <message key="admin.settings.journalsList.description">Izberite elemente publikacije, ki bodo prikazani pri vsaki publikaciji.</message>
+    <message key="admin.settings.journalsList.showThumbnail">Ikona publikacije</message>
+    <message key="admin.settings.journalsList.showTitle">Naslov publikacije</message>
+    <message key="admin.settings.journalsList.showDescription">Opis publikacije</message>
+<message key="admin.languages.primaryLocaleInstructions">To bo privzeti jezik za spletišče in vse gostujoče publikacije.</message>
+<message key="admin.languages.supportedLocalesInstructions">Izberite vse jezike, ki bodo podprti na tem spletišču. Izbrani jeziki bodo na voljo za vse gostujoče publikacije in se bodo pojavili na meniju možnih jezikov na vsaki spletni strani (to lahko spremenite na specifičnih straneh publikacije). Če ne bo izbranih več jezikov, se na spletnih straneh ne bo pojavil meni za jezikovno nastavitev.</message>
+<message key="admin.locale.maybeIncomplete">Označeni jeziki so lahko nepopolni.</message>
+<message key="admin.languages.confirmUninstall">Ste prepričani, da želite odstraniti ta jezik? To lahko vpliva na vse gostujoče publikacije.</message>
+<message key="admin.languages.installNewLocalesInstructions">Izberite dodatne jezike, ki jih želite imeti na voljo na spletišču. Vsak jezik mora biti nameščen pred uporabo. V OJS dokumentaciji lahko najdete več informacij o podpori novih jezikov.</message>
+<message key="admin.languages.downloadLocales">Prenesi jezike</message>
+<message key="admin.languages.downloadFailed">Prenos jezika ni uspel. Spodaj je opis napak(e).</message>
+<message key="admin.languages.localeInstalled">Nameščen je bil jezik "{$locale}".</message>
+<message key="admin.languages.download">Prenesi jezik</message>
+<message key="admin.languages.download.cannotOpen">Jezikovnega deskriptorja ni bilo mogoče odpreti na PKP spletni strani.</message>
+<message key="admin.languages.download.cannotModifyRegistry">Dodajenje novega jezika v nastavitveno datoteko ni bilo mogoče, običajno je to  "registry/locales.xml".</message>
+<message key="admin.auth.ojs">OJS uporabniška baza podatkov</message>
+<message key="admin.auth.enableSyncProfiles">Omogoči sinhroniziranje uporabniških računov (če je podprto s tem avtentikacijskim dodatkom). Uporabniški račun bo avtomatsko posodobljen iz oddaljenega vira, ko se uporbnik prijavi v sistem. Hkrati se bodo vse spremembe uporabniškega računa (tudi gesla) v OJS, avtomatsko posodobile na oddaljenem viru. Če ta opcija ni omogočena, bo OJS uporabniški račun ločen od uporabniškega računa na oddaljenem viru.</message>
+<message key="admin.auth.enableSyncPasswords">Omogoči spreminjanje gesla (če je omogočeno s tem avtentikacijskim dodatkom). Ta opcija dovoljuje uporabnikom, da spremenijo svoje geslo v OJSju in da lahko uporabijo OJS-jevo funkcijo "izgubljeno geslo" za ponastavitev pozabljenega gesla. Če ta opcija ni omogočena, te funkcije uporabnikom, ki uporabljajo ta avtentikacijski vir, ne bodo na voljo.</message>
+<message key="admin.auth.enableCreateUsers">Omogoči ustvarjanje uporabnikov (če je ta avtentikacijski dodatek to podpira). Uporabniki, ki bodo ustvarjeni v OJS s tem avtentikacijskim virom, bodo avtomatsko dodani tudi v oddaljenem avtentikacijskem viru, če še ne obstajajo. Če je ta vir privzet avtentikacijski vir, bodo enako dodani tudi vsi uporabniki, ki bodo svoj račun ustvarili v postopku uporabniške registracije.</message>
+<message key="admin.systemVersion">Verzija OJS</message>
+<message key="admin.systemConfiguration">OJS konfiguracija</message>
+<message key="admin.systemConfigurationDescription"><![CDATA[Nastavitve OJS iz <tt>config.inc.php</tt>.]]></message>
+<message key="admin.journals.journalSettings">Nastavitve publikacije</message>
+<message key="admin.journals.noneCreated">Nobena publikacija ni bila ustvarjena.</message>
+<message key="admin.journals.confirmDelete">Ste prepričani, da želite dokončno zbrisati to publikacijo in vso njeno vsebino?</message>
+<message key="admin.journals.create">Ustvari publikacijo</message>
+<message key="admin.journals.createInstructions">Avtomatsko boste določeni za upravitelja publikacije. Ko ustvarite publikacijo, se prijavite kot upravitelj in nadaljujte z nastavljanjem publikacije in določanjem uporabnikov.</message>
+<message key="admin.journals.urlWillBe">To naj bo ena kratka beseda ali kratica, ki identificira publikacijo. URL publikacije bo potem {$sampleUrl}</message>
+<message key="admin.journals.form.titleRequired">Naslov je obvezen</message>
+<message key="admin.journals.form.pathRequired">Pot je obvezna.</message>
+<message key="admin.journals.form.pathAlphaNumeric">Pot lahko vsebuje le alfa-numerične znake, podčrtaj in pomišljaj, ter se mora začeti in končati z alfa-numeričnim znakom.</message>
+<message key="admin.journals.form.pathExists">Izbrano pot uporablja že druga publikacija.</message>
+<message key="admin.journals.enableJournalInstructions">Omogoči, da se publikacija pojavlja javno na spletišču</message>
+<message key="admin.journals.journalDescription">Opis publikacije</message>
+<message key="admin.journal.pathImportInstructions">Obstoječa pot publikacije ali pot, ki jo želite ustvariti (npr. "ojs").</message>
+<message key="admin.journals.importSubscriptions">Uvozi naročnine</message>
+<message key="admin.journals.transcode">Prekodiraj metapodatke prenesenih prispevkov iz ISO8859-1</message>
+<message key="admin.journals.redirect">Generiraj kodo za preslikavo OJS 1 URL-ev v OJS 2 URL-je</message>
+<message key="admin.journals.form.importPathRequired">Uvozna pot je obvezna</message>
+<message key="admin.journals.importErrors">Uvoz ni uspel v celoti</message>
+<message key="admin.mergeUsers">Združi uporabnike</message>
+<message key="admin.mergeUsers.mergeUser">Združi uporabnika</message>
+<message key="admin.mergeUsers.into.description">Izberite uporabnika, ki mu želite pripisati vsa avtorska dela, uredniške zadolžitve, itd. prejšnjega uporabnika.</message>
+<message key="admin.mergeUsers.from.description">Izberite račun uporabnika (ali več), ki jih želite zružiti v drug uporabniški račun (npr. če kdo uporablja več uporabniških računov). Vsi oddani prispevki, zadolžitve in ostalo, prvoizbranega uporabniškega računa (ali več njih) bodo zbrisani in preneseni na drug uporabniški račun.</message>
+<message key="admin.mergeUsers.allUsers">Vsi evidentirani uporabniki</message>
+<message key="admin.mergeUsers.confirm">Ali ste prepričani, da želite združiti izbran uporabniški račun (ali več njih) {$oldAccountCount} v uporabniški račun z imenom "{$newUsername}"? Izbrani uporabniški računi {$oldAccountCount} ne bodo več obstajali. Ta akcija je nerevezibilna!</message>
+<message key="admin.mergerUsers.noneEnrolled">Ni evidentiranih uporabnikov</message>
+
+<!-- Categories -->
+<message key="admin.categories">Kategorije</message>
+<message key="admin.categories.enable.description">Administrator spletišča lahko definira množico kategorij, ki pomagajo organizirati veliko število publikacij. Glavni uredniki publikacij lahko izberejo več teh kategorij za vsako publikacijo. Bralci lahko brskajo po publikacijah s pomočjo teh kategorij.</message>
+<message key="admin.categories.disableCategories">Ne organiziraj publikacij po kategorijah.</message>
+<message key="admin.categories.enableCategories">Dovoli glavnim urednikom publikacij, da jih organizirajo po kategorijah.</message>
+<message key="admin.categories.editTitle">Uredi kategorije</message>
+<message key="admin.categories.createTitle">Ustvari kategorijo</message>
+<message key="admin.categories.create">Ustvari novo kategorijo</message>
+<message key="admin.categories.noneCreated">Nobene kategorije ni bilo ustvarjene</message>
+<message key="admin.categories.confirmDelete">Ste prepričani, da želite zbrisati to kategorijo?</message>
+<message key="admin.categories.name">Ime</message>
+<message key="admin.categories.nameRequired">Ime kategorije je obvezno.</message>
+<message key="admin.settings.security">Varnost</message>
+<message key="admin.settings.security.plugins">Prepreči urednikom publikacij namestitev, posodobitev ali brisanje vtičnikov</message>
+<message key="admin.languages.reloadDefaultEmailTemplates">Ponovno naloži prednastavljene predloge emailov</message>
+</locale>
