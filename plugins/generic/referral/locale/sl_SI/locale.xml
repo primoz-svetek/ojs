@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/generic/referral/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.generic.referral.name">Vtičnik referral</message>
+	<message key="plugins.generic.referral.description">Referral vtičnik spremlja povratne URL povezave do člankov (npr. ko bralec sledi povezavi do članka preko zunanje povezave) in omogoča avtorju, da vzdržuje in tudi objavi listo povezav na članek, ki se avtomatsko posodablja.</message>
+	
+	<message key="plugins.generic.referral.editReferral">Uredi povratno povezavo</message>
+	<message key="plugins.generic.referral.createReferral">Ustvari povratno povezavo</message>
+	<message key="plugins.generic.referral.referrals">Povratne povezave</message>
+	<message key="plugins.generic.referral.count">Zadetki</message>
+	<message key="plugins.generic.referral.dateAdded">Datum dodajanja</message>
+	<message key="plugins.generic.referral.all">Vsi</message>
+	<message key="plugins.generic.referral.all.empty">Trenutno ni nobenih povratnih povezav.</message>
+	<message key="plugins.generic.referral.status.new">Nova</message>
+	<message key="plugins.generic.referral.status.new.empty">Trenutno ni nobenih novih povratnih povezav.</message>
+	<message key="plugins.generic.referral.status.accept">Objavljeno</message>
+	<message key="plugins.generic.referral.status.accepted">Objavljeno</message>
+	<message key="plugins.generic.referral.status.accept.empty">Trenutno ni nobenih objavljenih povratnih povezav.</message>
+	<message key="plugins.generic.referral.status.declined">Ignorirane</message>
+	<message key="plugins.generic.referral.status.decline">Ignorirane</message>
+	<message key="plugins.generic.referral.status.decline.empty">Trenutno ni nobenih ignoriranih povratnih povezav.</message>
+	<message key="plugins.generic.referral.confirmDelete">Ste prepričani, da želite zbrisati to povratno povezavo?</message>
+	<message key="plugins.generic.referral.nameRequired">Naslov povratne povezave je obvezen.</message>
+	<message key="plugins.generic.referral.urlRequired">URL povratne povezave je obvezen.</message>
+	<message key="plugins.generic.referral.settings">Nastavitve referral vtičnika</message>
+	<message key="plugins.generic.referral.settings.description">Referral vtičnik zbira povezave drugih spletnih strani, ki vodijo do člankov objavljenih v tej publikaciji. Avtor jih lahko pripravi in objavi. To omogoča glavnemu uredniku, da nadzoruje, kako se bo celoten proces zajemanja povezav odvijal.</message>
+	<message key="plugins.generic.referral.excusions">Izključitve</message>
+	<message key="plugins.generic.referral.exclusions.description"><![CDATA[Vnesite spisek regularnih izrazov, v vsaki vrstici po enega, ki se bodo upoštevali kot izključitve pri beleženju povezav. To je lahko koristno pri preprečevanju, da se na spisku pojavijo spletni iskalniki. Za več informacij o regularnih izrazih poglejte <a href="http://ca.php.net/manual/en/ref.pcre.php" target="_new">http://ca.php.net/manual/en/ref.pcre.php</a>.]]></message>
+</locale>

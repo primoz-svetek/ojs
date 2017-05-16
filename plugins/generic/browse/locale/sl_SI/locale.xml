@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/generic/browse/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<!-- plugin -->
+	<message key="plugins.generic.browse.displayName">Brskaj</message>
+	<message key="plugins.generic.browse.description">Ta vtičnik omogoča brskanje po rubrikah in/ali njihovih identifikacijskih tipih.</message>
+
+	<!-- URN manager options, setting -->
+	<message key="plugins.generic.browse.manager.settings">Nastavitve</message>
+	<message key="plugins.generic.browse.manager.settings.description">Namesti spodnje dodatne brskalne možnosti:</message>
+
+	<message key="plugins.generic.browse.manager.settings.browseSettings">Nastavitve brskanja</message>
+	<message key="plugins.generic.browse.manager.settings.browse">Brskaj</message>
+	<message key="plugins.generic.browse.manager.settings.browseByObjects">Izberite objekte po katerih naj bo možno brskanje.</message>
+	<message key="plugins.generic.browse.manager.settings.enableBrowseBySections">Po rubriki</message>
+	<message key="plugins.generic.browse.manager.settings.enableBrowseByIdentifyTypes">Po identifikacijskem tipu</message>
+	<message key="plugins.generic.browse.manager.settings.excludedSections">Izločene rubrike</message>
+	<message key="plugins.generic.browse.manager.settings.excludedSections.description">Izberite rubrike, ki naj ne bodo vključene.</message>
+	<message key="plugins.generic.browse.manager.settings.excludedIdentifyTypes">Izločeni itentifikacijski tipi</message>
+	<message key="plugins.generic.browse.manager.settings.excludedIdentifyTypes.description">Izberite identifikacijske tipe, ki naj ne bodo vključeni.</message>
+
+	<message key="plugins.generic.browse.search.sections">Po rubrikah</message>
+	<message key="plugins.generic.browse.search.sectionIndex">Brskaj po indeksu rubrik</message>
+	<message key="plugins.generic.browse.search.sectionDetails">Podrobnosti rubrike</message>
+	<message key="plugins.generic.browse.search.identifyTypes">Po identifikacijskem tipu</message>
+	<message key="plugins.generic.browse.search.identifyTypeIndex">Brskaj po identifikacijskem tipu</message>
+	<message key="plugins.generic.browse.search.identifyTypeDetails">Podrobnosti identifikacijskega tipa</message>
+
+</locale>

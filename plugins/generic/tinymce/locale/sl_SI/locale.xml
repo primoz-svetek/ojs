@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/tinymce/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2013-2015 Simon Fraser University Library
+  * Copyright (c) 2003-2015 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.generic.tinymce.name">TinyMCE vtičnik</message>
+	<message key="plugins.generic.tinymce.description"><![CDATA[Ta vtičnik obogoča urejanje v WYSIWYG načinu v OJS besedilnih poljih z uporabo <a href="http://tinymce.moxiecode.com" target="_new">TinyMCE</a> urejevalnika.]]></message>
+	<message key="plugins.generic.tinymce.descriptionDisabled"><![CDATA[Ta vtičnik obogoča urejanje v WYSIWYG načinu v OJS besedilnih poljih z uporabo <a href="http://tinymce.moxiecode.com" target="_new">TinyMCE</a> urejevalnika. <strong>TinyMCE trenutno ni nameščen; prosimo namestite ga v  {$tinyMcePath}.</strong>]]></message>
+	<message key="plugins.generic.tinymce.settings">Nastavitve</message>
+</locale>

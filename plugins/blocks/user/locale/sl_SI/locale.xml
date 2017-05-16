@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/blocks/user/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.block.user.displayName">Uporabniški blok</message>
+	<message key="plugins.block.user.description">Ta vtičnik ureja orodja uporabnika na stranski orodni vrstici (npr. prijava, odjava, link na račun, itd.)</message>
+	<message key="plugins.block.user.loggedInAs">Prijavljeni ste kot...</message>
+	<message key="plugins.block.user.myJournals">Moje publikacije</message>
+	<message key="plugins.block.user.myProfile">Moj račun</message>
+	<message key="plugins.block.user.logout">Odjavi</message>
+	<message key="plugins.block.user.signOutAsUser">Odjavi se kot ta uporabnik</message>
+	<message key="plugins.block.user.rememberMe">Zapomni si me</message>
+</locale>

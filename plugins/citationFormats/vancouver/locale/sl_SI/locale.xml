@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * plugins/citationFormats/vancouver/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2017 Primož Svetek
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in sl_SI Slovenian (Slovenščina).
+  *
+  -->
+
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.citationFormats.vancouver.displayName">Vtičnik za Vancouverski format citiranja</message>
+	<message key="plugins.citationFormats.vancouver.citationFormatName">Vancouver</message>
+	<message key="plugins.citationFormats.vancouver.description">Vtičnik implementira Vancouverski format citiranja.</message>
+	<message key="plugins.citationFormats.vancouver.serialOnTheInternet">Serijska publikacija na internetu</message>
+	<message key="plugins.citationFormats.vancouver.cited">Citiran</message>
+	<message key="plugins.citationFormats.vancouver.about">O</message>
+	<message key="plugins.citationFormats.vancouver.availableFrom">Na voljo na</message>
+</locale>

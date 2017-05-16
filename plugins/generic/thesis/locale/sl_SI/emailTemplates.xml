@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * plugins\generic\thesis\locale\sl_SI\emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  *
+  -->
+<email_texts locale="sl_SI">
+	<email_text key="THESIS_ABSTRACT_CONFIRM">
+		<subject>Oddaja povzetka teze</subject>
+		<body>Ta e-pošta je avtomatično generiral obrazec za oddajo povzetka teze pri publikaciji {$journalName}.
+
+Prosim potrdite, da so oddani podatki pravilni. Po prejetju vašega potrdila bo povzetek objavljen na spletni verziji publikacije.
+
+Enostavno naredite odgovori na {$thesisName} ({$thesisEmail}) z vsebino te e-pošte in vašim potrdilom, oziroma pojasnili ali popravki.
+
+Hvala.
+
+
+Naslov : {$title} 
+Avtor : {$studentName}
+Stopnja : {$degree}
+Ime stopnje: {$degreeName}
+Oddelek : {$department}
+Univerza : {$university}
+Datum odobritve : {$dateApproved}
+Nadzornik : {$supervisorName}
+
+Povzetek
+--------
+{$abstract}
+
+{$thesisContactSignature}</body>
+		<description></description>
+	</email_text>
+</email_texts>

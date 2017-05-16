@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+* @file plugins/blocks/navigation/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.block.languageToggle.selectLabel">Izberite jezik</message>
+	<message key="plugins.block.languageToggle.displayName">Blok za spreminjanje jezika</message>
+	<message key="plugins.block.languageToggle.description">Ta vtičnik se uporablja v stranskem meniju za izbiro jezika.</message>
+</locale>

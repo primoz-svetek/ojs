@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/blocks/information/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.block.information.displayName">Informacijski blok</message>
+	<message key="plugins.block.information.description">Ta vtičnik ureja informacijske povezave na stranski orodni vrstici.</message>
+	<message key="plugins.block.information.link">Informacije</message>
+</locale>

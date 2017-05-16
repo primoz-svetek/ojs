@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/blocks/readingTools/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2013 Simon Fraser University Library
+  * Copyright (c) 2003-2013 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+-->
+
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.block.readingTools.displayName">Orodja za branje</message>
+	<message key="plugins.block.readingTools.description">Ta vtičnik prikazuje blok z orodji za branje v stranskem meniju za orodja za branje.</message>
+	<message key="plugins.block.readingTools.title">Orodja za branje</message>
+	<message key="plugins.block.readingTools.aboutTheAuthor">O avtorju</message>
+	<message key="plugins.block.readingTools.aboutTheAuthors">O avtorjih</message>
+	<message key="plugins.block.readingTools.articleTools">Orodja za prispevek</message>
+	<message key="plugins.block.readingTools.emailThisArticle">Pošlji prispevek (e-pošta)</message>
+	<message key="plugins.block.readingTools.loginRequired">Obvezna prijava</message>
+	<message key="plugins.block.readingTools.printThisArticle">Natisni prispevek</message>
+	<message key="plugins.block.readingTools.postComment">Oddaj komentar</message>
+</locale>

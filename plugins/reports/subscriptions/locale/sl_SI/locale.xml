@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/reports/subscriptions/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.reports.subscriptions.displayName">Poročilo o naročninah</message>
+	<message key="plugins.reports.subscriptions.description">Ta vtičnik ureja CSV poročilo o naročninah, ki vsebuje seznam naročnin in podatke o njih.</message>
+	<message key="plugins.reports.subscriptions.institutionMailingAddress">Naslov institucije</message>
+	<message key="plugins.reports.subscriptions.ipRanges">IP območje</message>
+</locale>

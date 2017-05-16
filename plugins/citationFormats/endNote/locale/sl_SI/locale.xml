@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/citationFormats/endNote/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2013-2015 Simon Fraser University Library
+  * Copyright (c) 2003-2015 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in sl_SI Slovenian (Slovenščina).
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.citationFormats.endNote.displayName">Vtičnik za EndNote format citiranja</message>
+	<message key="plugins.citationFormats.endNote.citationFormatName">EndNote - EndNote format (Macintosh &amp; Windows)</message>
+	<message key="plugins.citationFormats.endNote.description">Vtičnik implementira EndNote format citiranja.</message>
+</locale>

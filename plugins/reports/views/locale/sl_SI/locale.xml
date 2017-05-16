@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/reports/views/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the sl_SI (Slovenian/slovenski) locale.
+  *
+  * Primož Svetek (primoz.svetek@gmail.com)
+  -->
+ 
+<locale name="sl_SI" full_name="Slovensko (Slovenian)">
+	<message key="plugins.reports.views.displayName">Poročilo o branosti</message>
+	<message key="plugins.reports.views.description">Ta vtičnik ureja CSV poročilo o branosti posameznega prispevka.</message>
+
+  <message key="plugins.reports.views.articleId">ID prispevka</message>
+  <message key="plugins.reports.views.articleTitle">Naslov prispevka</message>
+  <message key="plugins.reports.views.datePublished">Datum objave</message>
+  <message key="plugins.reports.views.abstractViews">Število vpogledov v povzetek</message>
+  <message key="plugins.reports.views.galleyViews">Število vpogledov v prelom</message>
+</locale>
